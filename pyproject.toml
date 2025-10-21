@@ -1,7 +1,7 @@
 [project]
 name = "gameboard"
 version = "0.1.0"
-description = "Add your description here"
+description = "A tool that will generate a gameboard on a pygame surface by loading a definition from a toml file"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
