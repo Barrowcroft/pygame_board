@@ -1,0 +1,163 @@
+[meta]
+author = "Karl"
+name = "Reversi"
+version = "1"
+date = "2025-10-12"
+
+[outer_boarder]
+height_top = 10 
+height_bottom = 10
+width_left = 10
+width_right = 10
+colour = "#006E0B"
+
+[inner_boarder]
+height_top = 20
+height_bottom = 20
+width_left = 20
+width_right = 20
+colour = "#004608"
+
+[grid]
+cells_horizontal = 8
+cells_vertical = 8
+width_of_cell = [
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+]
+height_of_cell = [
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+]
+vertical_gutter = [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+]
+horizontal_gutter = [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+]
+colour_of_cell = [
+    [
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+    ],
+    [
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+    ],
+    [
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+    ],
+    [
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+    ],
+    [
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+    ],
+    [
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+    ],
+    [
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+    ],
+    [
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+        "#006E0B",
+    ],
+]
+
+[token_images]
+white = "_white.png"
+black = "_black.png"
+
+[[board_decorator]]
+name = "_spot.png"
+coords = [[148, 148],[391, 148], [148, 391],[391, 391]]
+
+[[initial_state]]
+token = "white"
+coords = [[3, 3],[4, 4]]
+
+[[initial_state]]
+token = "black"
+coords = [[3, 4], [4,3]]
